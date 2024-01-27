@@ -1,5 +1,5 @@
-# Food Genie - Your Ultimate Food Ordering Companion
-![Splash Screen](https://navneetbaid.000webhostapp.com/img/project/foodgenie1.jpg)
+# Food Genie - Map your Meals
+![Food Genie - Map your Meals](https://navneetbaid.000webhostapp.com/img/project/Food-Genie.gif)
 Food Genie is an Android application crafted with ❤️ using the Kotlin programming language in Android Studio. This user-friendly app empowers users to explore restaurants, place orders, and conveniently manage their purchase history.
 
 ## Features

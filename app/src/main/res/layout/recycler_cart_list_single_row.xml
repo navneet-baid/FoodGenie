@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:weightSum="6">
+
+    <ImageView
+        android:id="@+id/dash_icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="6dp"
+        android:src="@drawable/ic_dash" />
+
+    <TextView
+        android:id="@+id/dishName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3.5"
+        android:padding="3dp"
+        android:text="Dish"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:padding="6dp"
+        android:text="Rs.xxx"
+        android:textSize="@dimen/_12sdp" />
+</LinearLayout>

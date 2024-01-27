@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD9D9"
+    tools:context=".activity.LoginActivity">
+
+    <TextView
+        android:id="@+id/txtSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/skip"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imgLoginLogo"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:contentDescription="foodGenieLogo"
+        android:src="@drawable/food_genie_logo" />
+
+    <TextView
+        android:id="@+id/txtHelpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLoginLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Enter your registered email id and password to login"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/txtLoginError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHelpText"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:text="Error Message"
+        android:textColor="#FF0000"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etLoginPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLoginError"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="phone"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_phone_red"
+        android:hint="Mobile Number(10 digits)"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLoginPhone"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="password"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_password_red"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLoginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="5dp"
+        android:text="@string/forgot_password_click_here"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtForgotPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_background"
+        android:padding="10dp"
+        android:text="Login"
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:id="@+id/txtLoginRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/don_t_have_an_account_register"
+        android:textSize="@dimen/_13sdp" />
+</RelativeLayout>

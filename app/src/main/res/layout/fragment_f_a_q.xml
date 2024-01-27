@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_30sdp"
+    tools:context=".fragment.FAQFragment">
+
+    <TextView
+        android:id="@+id/ques0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ques1"
+        android:textColor="@color/item_color_active"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:drawableEndCompat="@drawable/ic_faq_down_arrow" />
+
+    <TextView
+        android:id="@+id/ans0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ans1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/ques1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ques2"
+        android:textColor="@color/item_color_active"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:drawableEndCompat="@drawable/ic_faq_down_arrow" />
+
+    <TextView
+        android:id="@+id/ans1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ans2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ques2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ques3"
+        android:textColor="@color/item_color_active"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:drawableEndCompat="@drawable/ic_faq_down_arrow" />
+
+    <TextView
+        android:id="@+id/ans2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ans3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ques3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ques4"
+        android:textColor="@color/item_color_active"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:drawableEndCompat="@drawable/ic_faq_down_arrow" />
+
+    <TextView
+        android:id="@+id/ans3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ans4"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ques4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ques5"
+        android:textColor="@color/item_color_active"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:drawableEndCompat="@drawable/ic_faq_down_arrow" />
+
+    <TextView
+        android:id="@+id/ans4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/ans5"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD9D9"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:contentDescription="icon"
+        android:id="@+id/imgRegisterLogo"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/register_vetor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_toEndOf="@id/imgRegisterLogo"
+        android:padding="10dp"
+        android:text="Register your account"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtHelpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgRegisterLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Enter your details"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHelpText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etRegName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorText"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="name"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_admin"
+        android:drawablePadding="10dp"
+        android:drawableTint="#494949"
+        android:elevation="6dp"
+        android:hint="Full Name(Min. 3 Char)"
+        android:inputType="text"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:minLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/etRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegName"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_email_red"
+        android:drawablePadding="10dp"
+        android:drawableTint="#494949"
+        android:elevation="6dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/etRegMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegEmail"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="phone"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_phone_red"
+        android:drawablePadding="10dp"
+        android:drawableTint="#494949"
+        android:elevation="6dp"
+        android:hint="Mobile Number(10 digits)"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/etRegAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegMobileNumber"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="postalAddress"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_home_tab"
+        android:drawablePadding="10dp"
+        android:drawableTint="#494949"
+        android:elevation="6dp"
+        android:hint="Delivery Address"
+        android:inputType="text"
+        android:maxLines="2"
+        android:minLines="2"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegAddress"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints="password"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_password_red"
+        android:drawablePadding="10dp"
+        android:drawableTint="#494949"
+        android:elevation="6dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/etRegCnfPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegPassword"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/input_background"
+        android:drawableStart="@drawable/ic_password_red"
+        android:drawablePadding="10dp"
+        android:drawableTint="#494949"
+        android:elevation="6dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textSize="@dimen/_13sdp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegCnfPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_background"
+        android:padding="10dp"
+        android:text="Register"
+        android:textSize="@dimen/_14sdp" />
+</RelativeLayout>

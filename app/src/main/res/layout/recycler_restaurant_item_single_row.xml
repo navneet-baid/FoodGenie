@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/itemLlContent"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/txtSerialNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_weight="0.8"
+            android:elevation="10dp"
+            android:padding="5dp"
+            android:text="1"
+            android:textSize="@dimen/_15sdp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.5">
+
+            <TextView
+                android:id="@+id/txtDishName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Name of the Dish"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13sdp" />
+
+
+            <TextView
+                android:id="@+id/txtItemMrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDishName"
+                android:padding="4dp"
+                android:text="Rs. 299"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_11sdp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="0.7"
+            android:background="#FF9800"
+            android:text="Add to cart"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

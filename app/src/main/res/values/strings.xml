@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Food Genie</string>
+    <string name="skip"><u>Skip <b>></b></u></string>
+    <string name="forgot_password_click_here">Forgot Password? <u>Click Here</u></string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? <u>Register</u></string>
+    <string name="preference_file_name">FoodGenie Preference file</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="click_here_to_change_password">Click here to <a href="#">change password</a></string>
+    <string name="ques1">1. What exactly is FoodGenie app?</string>
+    <string name="ans1">FoodGenie is a food delivering app developed by navneet baid, for his android development training\'s final project. in this app user can register himself and place an order in various restaurant\'s fetched from API developed by internshala. User also add their favourite restaurants and see them in Favourites fragment.</string>
+    <string name="ques2">2. I want to change password? / I don\'t remember my password?</string>
+    <string name="ans2">If you don\'t remember your password or you want to change your password click here or go to <em>My Profile</em>. This procedure will send an OTP on your registered email id (valid for 24 Hour\'s) after verification you can reset your password successfully.</string>
+    <string name="ques3">3. Can i edit my order?</string>
+    <string name="ans3">This app is for project purpose only, Order will not place in real the order details will only send to an API and stored on server so you can see your orders in My Orders section</string>
+    <string name="ques4">4. Do i have to create an account to place an order?</string>
+    <string name="ans4">Yes, to place an order you have to create an account on FoodGenie.</string>
+    <string name="ques5">5. Did not receive order confirmation SMS?</string>
+    <string name="ans5">This app is only for project purpose, Orders will not placed in real time so you could not receives order confirmation SMS.</string>
+</resources>

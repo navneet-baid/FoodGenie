@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/topBreak"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/txtRestName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topBreak"
+            android:layout_marginStart="6dp"
+            android:fontFamily="monospace"
+            android:text="ORDER FROM: Restaurant Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            app:drawableEndCompat="@drawable/ic_faq_down_arrow" />
+
+        <TextView
+            android:id="@+id/txtOrderId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtRestName"
+            android:layout_marginStart="6dp"
+            android:fontFamily="serif-monospace"
+            android:text="ORDER ID: #253261"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtOrderId"
+            android:layout_marginStart="6dp"
+            android:fontFamily="serif-monospace"
+            android:text="DATE: 16-07-2020"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDate"
+            android:layout_marginStart="6dp"
+            android:fontFamily="serif-monospace"
+            android:text="TOTAL AMOUNT: Rs. 220"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+
+        <View
+            android:id="@+id/breakout"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/txtTotal"
+            android:background="#5A5A5A" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerOrderItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/breakout"
+            android:padding="6dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

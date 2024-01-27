@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icTopFav"
+        android:icon="@drawable/ic_fav_white"
+        android:iconTint="@color/white"
+        android:orderInCategory="100"
+        android:title="Favourites"
+        android:tooltipText="Favourites"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/iconTopCart"
+        android:icon="@drawable/ic_cart"
+        android:orderInCategory="100"
+        android:title="Cart"
+        android:tooltipText="Cart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/iconTopSort"
+        android:icon="@drawable/ic_sort"
+        android:orderInCategory="100"
+        android:title="Sort"
+        android:tooltipText="Sort"
+        app:showAsAction="always" />
+
+
+</menu>

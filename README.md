@@ -7,7 +7,7 @@ Food Genie is an Android application crafted with ❤️ using the Kotlin progra
 
 You can download the latest version of the Food Genie app by clicking the link below:
 
-[Download Food Genie APK](https://drive.google.com/file/d/1AdcXsg94WWaoM-CZAQ59SMklvDLWigwA/view?usp=sharing)
+[Download Food Genie APK](https://drive.google.com/file/d/1Yu5ObpEdPGnbIPE-1Lk5kfY_6kNlnOiZ/view?usp=sharing)
 
 
 ## Features
